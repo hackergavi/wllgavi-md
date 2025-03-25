@@ -1,115 +1,23 @@
+
 {
-  "name": "your wllgavi",
-  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ wllgavi",
-  "logo": "https://files.catbox.moe/k5jpgx.jpg",
-  "keywords": ["bot"],
-  "success_url": "/",
+    "name": "wllgavi-session",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/9si4ft.png",
+    "repository": "https://github.com/hackergavi/wllgavi-session",
+    "keywords": ["wllgavi-Tech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
 
-    "stack": "container",
-  "env": {
-    "SESSION_ID": {
-      "description": "Put the session-id here.",
-      "required": true,
-      "value": ""
-    },  
-    
-    "ALIVE_IMG": {
-      "description": "https://files.catbox.moe/k5jpgx.jpg",
-      "required": true,
-      "value": "https://files.catbox.moe/k5jpgx.jpg"
-    }, 
-    
-    "ALIVE_MSG": {
-      "description": "paste your alive message hear.",
-      "required": true,
-      "value": "HI DEAR IM ONLINE.!!♻️"
-    },
-    
-    "PREFIX": {
-      "description": "paste your bot prefix note! Don't apply null prefix.",
-      "required": true,
-      "value": "."
-    },
-    
-    "MODE": {
-      "description": "select your bot work type public-private-inbox-group.",
-      "required": true,
-      "value": "public"
-    }, 
-
-    "AUTO_VOICE": {
-      "description": "Make it true if you want bot auto voice.",
-      "required": true,
-      "value": "true"
-    }, 
-
-    "AUTO_REPLY": {
-      "description": "Make it true if you want bot auto reply.",
-      "required": true,
-      "value": "true"
-    }, 
-
-    "AUTO_STICKER": {
-      "description": "Make it true if you want bot auto sticker.",
-      "required": true,
-      "value": "false"
-    }, 
-
-    "AUTO_READ_STATUS": {
-      "description": "Make it true if you want bot auto auto_read_status.",
-      "required": true,
-      "value": "true"
-    }, 
-
-    "ANTI_LINK": {
-      "description": "Make it true if you want bot auto remove group link.",
-      "required": true,
-      "value": "true"
-    },
-
-    "ANTI_BAD": {
-      "description": "Make it true if you want bot auto delete bad words from group example xxx porn etc.",
-      "required": true,
-      "value": "false"
-    }, 
-
-    "FAKE_RECORDING": {
-      "description": "Make it true if you want bot fake record.",
-      "required": true,
-      "value": "true"
-    },
-
-    "AUTO_REACT": {
-      "description": "Make it true if you want bot AutoReact.",
-      "required": false,
-      "value": "false"
-    },
-
-    "OWNER_REACT": {
-      "description": "Make it true if you want bot OwnerReact.",
-      "required": false,
-      "value": "false"
-    
-    }, 
-
-    "BOT_NAME": {
-      "description": "write hear your name.",
-      "required": true,
-      "value": "✦『wllgavi_md』✦"
-    }, 
-
-    "HEART_REACT": {
-      "description": "Make it true if you want bot only heart ♥️ emjois reaction .",
-      "required": true,
-      "value": "false"
-    }
-
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
-  "stack": "heroku-24"
 }

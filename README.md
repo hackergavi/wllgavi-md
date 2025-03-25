@@ -1,9 +1,19 @@
-# new-md
-<h1 align="center" style="color:#FF5733;">no name</h1>
-<div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=0000FF&center=true&width=910&height=100&lines=hacker+wllgavi-MD;Multi+Device+Whatsapp+Bot-by-wllgavii;" alt="Typing SVG" /></a>
 
-<p align="center">
-  <img src="https://files.catbox.moe/9si4ft.png" width="700" height="300"/>
-</p>
+### DEPLOYMENT
+ 
+<a href='https://dashboard.heroku.com/new?template=https://github.com/hackergavi/wllgavi-session' target="_blank"><img alt='HEROKU DEPLOY' src='https://img.shields.io/badge/-HEROKU DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
+ <br>
+<a href='https://dashboard.render.com' target="_blank">
+    <img alt='DEPLOY TO RENDER' src='https://img.shields.io/badge/-DEPLOY TO RENDER-black?style=for-the-badge&logo=render&logoColor=white'/>
+</a>
+ <br>
+<a href='https://app.koyeb.com' target="_blank">
+    <img alt='DEPLOY TO KOYEB' src='https://img.shields.io/badge/-DEPLOY TO KOYEB-black?style=for-the-badge&logo=koyeb&logoColor=white'/>
+</a>
 
+
+# `Owner`
+
+ <a href="https://github.com/hackergavi"><img src="https://github.com/hackergavi.png" width="250" height="250" alt="wllgavi Tech"/></a>
+
+   
